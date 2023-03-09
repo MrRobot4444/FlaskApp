@@ -1,0 +1,15 @@
+
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <h1>Video Stream</h1>
+    <form action="/set_video" method="post">
+      <label for="video_url">Video URL:</label>
+      <input type="text" id="video_url" name="video_url" value="">
+      <input type="submit" value="Submit">
+    </form>
+    <img src="{{ url_for('video_feed') }}" alt="Video Stream" width="1020" height="600">
+  </body>
+</html>
