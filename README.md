@@ -1,4 +1,4 @@
-Le code fourni est une application web Flask pour diffuser une vidéo en direct sur une page web et détecter des objets en temps réel dans le flux vidéo à l'aide de la bibliothèque CVlib.
+Le code dans le fichier **app.py** est une application web Flask pour diffuser une vidéo en direct sur une page web et détecter des objets en temps réel dans le flux vidéo à l'aide de la bibliothèque CVlib.
 
 Le code utilise également la bibliothèque VidGear pour la capture vidéo.
 
