@@ -9,13 +9,13 @@ Voici une explication de chaque passage important dans le code :
 import cv2
 import cvlib as cv
 from cvlib.object_detection import draw_bbox
-from vidgear.gears import CamGear
+from vidgear.gears import CamGear```
 
 Le code importe les modules Flask pour la création d'une application Web, cv2 pour le traitement d'image, cvlib pour la détection d'objets, VidGear pour la capture vidéo.
 
-python
 
-app = Flask(__name__)
+
+```app = Flask(__name__)
 
 stream = CamGear(source='https://www.youtube.com/watch?v=ZO5lV0gh5i4', stream_mode=True, logging=True).start() # default video```
 
